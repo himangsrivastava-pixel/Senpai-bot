@@ -12,7 +12,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "yellow moon",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -167,10 +167,10 @@ export const botConfig = {
     startingBalance: 0,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 1000000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 250,
 
     // Work command random payout range.
     workMin: 10,
@@ -543,6 +543,7 @@ export function getRandomColor() {
 }
 
 export default botConfig;
+
 
 
 
